@@ -1,0 +1,56 @@
+.wspp{
+   
+    display: flex;
+    align-items: center;
+    width: 18em;
+    margin-top: 1em;
+    margin-left: -6.5em;
+    
+    
+}
+
+.linkwspp{
+    width: 8em;
+    font-size: 0.9rem;
+   
+    display: flex;
+    height: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.prueba{
+    display: flex;
+    align-items: center;
+    padding-left: 2.5em;
+    padding-right: 1.3em;
+    padding-top: 0.7em;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    background-color: #5429CF;
+   transition: 300ms;
+}
+
+.imgwspp{
+    width: 1.3em;
+    margin-right: -0.7em;
+    margin-bottom: 0.3em;
+}
+
+.prueba:hover{
+    transform: scale(1.12);
+    transition: 500ms;
+}
+
+.contenedor{
+    
+    display: flex;
+    flex-direction: column;
+    width: 60em;
+    height: 69vh;
+    justify-content: center;
+    align-items: center;
+}
