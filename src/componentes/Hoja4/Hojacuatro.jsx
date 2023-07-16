@@ -8,7 +8,7 @@ import { Megafono } from '../Megafono/Megafono';
 const Hojacuatro = () => {
     return(
         <>
-        <Box as='section' bg="#202024" h="66vh">
+        <Box as='section' bg="#202024" h="66vh" id='servicio'>
         <Center color="white" fontSize="3xl" fontWeight="bold" paddingTop="4em">Servicio</Center>
         <Box > 
             <Flex flexWrap="wrap"  justifyContent="center" alignItems="center"  h="27em">

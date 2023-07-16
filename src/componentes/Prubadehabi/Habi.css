@@ -1,0 +1,410 @@
+.ia{
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.io{
+    display: flex;
+}
+
+
+
+
+/* IMAGEN 1 */
+.cuno{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;;
+    
+    
+    
+}
+
+.cuno p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 7em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    
+    visibility: hidden;
+    
+
+}
+.imagenuno{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+   
+}
+
+
+
+/* IMAGEN DOS */
+
+.cdos{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+}
+
+.cdos p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 7em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility:hidden ;
+
+}
+.imagendos{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+}
+
+
+/* IMAGEN 3  */
+
+
+.ctres{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;;
+    
+    
+    
+}
+
+.ctres p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 7em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.6em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagentres{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+}
+
+/* IMAGEN CUATRO */
+
+.ccuatro{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.ccuatro p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+   width: 7em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagencuatro{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+   
+}
+
+
+
+
+
+.cuno:hover .texto {
+    
+    visibility: visible;
+    color:white;
+    
+    
+}
+
+.cuno:hover .imagenuno {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+.cdos:hover .texto {
+    
+    visibility: visible;
+    color:white;
+    
+}
+.cdos:hover .imagendos {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+.ctres:hover .texto {
+    
+    visibility: visible;
+    color:white;
+    
+}
+
+.ctres:hover .imagentres {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+}
+
+.ccuatro:hover .texto {
+    
+    visibility: visible;
+    color:white;
+    
+}
+.ccuatro:hover .imagencuatro {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+/* TERMINA PRIMERA PARTE DE IMGN */
+
+/* IMAGEN CINCO */
+
+.ccinco{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.ccinco p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 7em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagencinco{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+   
+}
+
+/* IMAGEN SEIS */
+.cseis{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.cseis p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+   width: 7em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagenseis{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+   
+}
+
+/* IMAGEN SIETE */
+.csiete{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.csiete p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 7em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.75em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagensiete{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+   
+}
+
+
+/* IMAGEN OCHO */
+.cocho{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.cocho p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 8em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    visibility: hidden ;
+    
+    
+
+}
+.imagenocho{
+    background-color:  #202024;
+    display: flex;
+    padding: 1.7em 1.6em;
+    border-radius: 5px;
+    
+   
+}
+
+
+
+.textodos{
+    margin-top: 1em;
+}
+.cseis:hover .textodos {
+    
+    visibility: visible;
+    color:white;
+   
+}
+.cseis:hover .imagenseis {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+.ccinco:hover .textodos {
+    
+    visibility: visible;
+    color:white;
+    
+}
+.ccinco:hover .imagencinco {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 100ms;
+    
+    
+}
+
+.csiete:hover .textodos {
+    
+    visibility: visible;
+    color:white;
+    
+}
+.csiete:hover .imagensiete {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+.cocho:hover .textodos {
+    
+    visibility: visible;
+    color:white;
+}
+.cocho:hover .imagenocho {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
