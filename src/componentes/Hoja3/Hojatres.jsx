@@ -6,6 +6,8 @@ import { Boxproyectolark } from '../Boxproyecto-larkhomes/Boxproyectolark';
 import { Boxnuevotp } from '../Boxnuevotp/Boxnuevotp';
 
 const Hojatres = () => {
+
+
     return(
         <>
         <Box h="90vh" bg="#121214" color="white" as='section' id='proyectos'>

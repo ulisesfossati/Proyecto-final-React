@@ -1,0 +1,15 @@
+.enviar{
+    width: 11.7em;
+    margin-top: 2em;
+    background-color: #5429CF;
+    color: white;
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+    padding: 1em 1em;
+    font-size: 1rem;
+    cursor: pointer;
+    
+
+    
+}

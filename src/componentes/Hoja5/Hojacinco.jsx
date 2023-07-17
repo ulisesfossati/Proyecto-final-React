@@ -5,7 +5,7 @@ import { Habi } from '../Prubadehabi/Habi';
 const Hojacinco = () => {
     return(
         <>
-        <Box h="62vh" bg="#121214" as="section" id='Habilidades'>
+        <Box h="62vh" bg="#121214" as="section" id='Habilidades' >
             <Box>
                 <Box  w="80%" margin="0 auto">
                     <Flex justifyContent="space-around"      h="60vh" alignItems="center" >
@@ -26,14 +26,14 @@ const Hojacinco = () => {
 
 
 
-
+    
 
 
 
         </Box>
         
         
-        
+     
         
         
         

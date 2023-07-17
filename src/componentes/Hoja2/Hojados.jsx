@@ -8,7 +8,8 @@ import { Btnnube } from '../btnnube/Btnnube';
 const Hojados = () => {
     return(
         <>
-        <Box height="75vh" bg="#202024" as='section' paddingTop="2em" id='sobremi'>
+        
+        <Box height="75vh" bg="#202024" as='section' paddingTop="2em" id='sobremi' >
           <Flex>
           <Box paddingTop="6em" bg="" width="50%" >  
           <Flex justifyContent="center">

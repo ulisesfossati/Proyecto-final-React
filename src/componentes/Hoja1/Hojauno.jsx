@@ -7,9 +7,12 @@ import mouse from '/icons8-ratón-.png'
 const Hojauno = () => {
     return(
         <>
+
+    
        <Box as='section' pt="5em" bg="#121214" height="77vh"  >
+        
         <Flex justifyContent="space-between" >
-        <Box>
+        <Box >
         <Titulo/>
         </Box>
         <Box>
