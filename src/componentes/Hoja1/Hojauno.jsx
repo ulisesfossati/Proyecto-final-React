@@ -9,7 +9,7 @@ const Hojauno = () => {
         <>
 
     
-       <Box as='section' pt="5em" bg="#121214" height="77vh"  >
+       <Box as='section' pt="5em" bg="#121214" height="77vh" id='primera'  >
         
         <Flex justifyContent="space-between" >
         <Box >

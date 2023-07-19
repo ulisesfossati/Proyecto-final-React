@@ -11,7 +11,7 @@ const Navbar = () => {
             <Flex justifyContent="right">
          <a className='violeta' href="#sobremi">Sobre mi</a>
         <a className='violeta' href="#proyectos">Proyectos</a>
-        <a className='violeta' href="#servicio<">Servicio</a>
+        <a className='violeta' href="#Servicio">Servicio</a>
         <a className='violeta' href="#Habilidades">Habilidades</a>
         <a className='violeta' href="#Contacto">Contacto</a></Flex>
        

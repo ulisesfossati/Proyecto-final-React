@@ -9,6 +9,7 @@ import { Hojatres } from './componentes/Hoja3/Hojatres'
 import { Hojacuatro } from './componentes/Hoja4/Hojacuatro'
 import { Hojacinco } from './componentes/Hoja5/Hojacinco'
 import { Contacto } from './componentes/Contacto/Contacto'
+import { Footer } from './componentes/Footer/Footer'
 
 
 
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Hojacuatro/>
       <Hojacinco/>
       <Contacto/>
+      <Footer/>
       
    
      

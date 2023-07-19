@@ -6,7 +6,7 @@ const Btnwspp = () => {
     return(
         <>
         <div className='in'>
-        <a className='pruebados' href="#">
+        <a className='pruebados' href="https://www.linkedin.com/in/ulises-fossati-98350b284/" target='_blank'>
       <img className='imgin' src={linkedin} alt="" />
           <p className='linkin'>Linkedin</p>
           </a> 

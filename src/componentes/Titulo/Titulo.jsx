@@ -11,7 +11,7 @@ const Titulo = () => {
         <Text fontWeight="bolder"  fontSize="2.9rem" letterSpacing="1px" marginTop="-2" color="white" >Ulises Fossati</Text>
         <Text fontWeight="bolder" fontSize="1.5rem" marginTop="-2" color="white"  width="30.5em" textAlign="end">Desarrollador de Front-End y Diseñador de UI/UX</Text>
       <div className='wspp'>
-        <a className='prueba' href="#">
+        <a className='prueba' target='_blank' href="https://wa.me/542915269707?text=Hola%2C+como+estas%3F">
       <img className='imgwspp' src={whatsapplogo} alt="" />
           <p className='linkwspp'>WhatsApp</p>
           </a> 
