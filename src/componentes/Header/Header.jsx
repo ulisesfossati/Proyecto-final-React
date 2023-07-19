@@ -2,6 +2,8 @@ import { Box, Flex } from '@chakra-ui/react';
 import React from 'react';
 import { Navbar } from '../Navbar/Navbar.jsx';
 import { Logo } from '../Logo/Logo.jsx'
+import { Hamburguesa } from '../Menuhamb/Hamburguesa.jsx';
+
 
 
 
@@ -13,6 +15,7 @@ const Header = () => {
             <Flex align="center" > 
             <Logo/>
            <Navbar/>
+           <Hamburguesa/>
            </Flex>
         </Box>
         </>

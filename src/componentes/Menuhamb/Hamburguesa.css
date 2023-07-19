@@ -1,0 +1,45 @@
+.nav-list{
+    display: flex;
+    list-style-type:none;
+    gap: 1.5rem;
+}
+
+.nav-list li a{
+    color: white;
+    
+}
+
+.abrir{
+    display:none;
+}
+
+.hola{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #5429CF;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2.2rem;
+    
+    
+}
+
+.nav-list li a:hover{
+    text-decoration: 1.5px underline ;
+}
+
+.cerrar{
+    color: white;
+    padding: 0 2rem;
+    width: 5.5em;
+
+    
+}
+
+.nav-list{
+    flex-direction: column;
+    align-items: end;
+}

@@ -6,7 +6,7 @@ import './Navbar.css'
 const Navbar = () => {
     return(
        <>
-       <Box  color="white"  w="55em"  >
+       <Box  color="white"  w="55em" display={{base:'none', md:'block', lg:'block',xl:'block', '2xl':'block',}}  >
         <nav >
             <Flex justifyContent="right">
          <a className='violeta' href="#sobremi">Sobre mi</a>

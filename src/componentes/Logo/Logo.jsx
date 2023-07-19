@@ -9,7 +9,7 @@ const Logo = () => {
         fontWeight="bold"
         
         width="20em"
-        > <Flex align="center" justifyContent="center">Portfolio</Flex> </Box>
+        > <Flex align="center" justifyContent={{base:'', md:'center', lg:'center',xl:'center', '2xl':'center',}}    marginLeft={{base:'1em' , md:'1em', lg:'0',xl:'0', '2xl':'0',}}>Portfolio</Flex> </Box>
 
 
         </>
