@@ -8,20 +8,21 @@ import { Megafono } from '../Megafono/Megafono';
 const Hojacuatro = () => {
     return(
         <>
-        <Box as='section' bg="#202024" height={{base:'215vh', md:'100vh', lg:'72vh',xl:'72vh', '2xl':'72vh',}} id='Servicio'>
+        <Box as='section' bg="#202024" height={{base:'215vh', md:'100vh', lg:'125vh',xl:'78vh', '2xl':'72vh',}} id='Servicio'>
             
-        <Center color="white" fontSize="3xl" fontWeight="bold" paddingTop={{base:'2.5em', md:'4em', lg:'4em',xl:'4em', '2xl':'4em',}} marginBottom={{base:'2em', md:'2em', lg:'0',xl:'0', '2xl':'0',}}
+        <Center color="white" fontSize="3xl" fontWeight="bold" paddingTop={{base:'2.5em', md:'4em', lg:'4em',xl:'4em', '2xl':'4em',}} marginBottom={{base:'2em', md:'2em', lg:'2em',xl:'0', '2xl':'0',}}
 
 >Servicio</Center>
         <Box  > 
-            <Flex flexWrap="wrap"  justifyContent="center" alignItems="center"  h="27em" gap={{base:'4.4rem', md:'0 ', lg:'0',xl:'0', '2xl':'0',}} 
+              <Center>
+            <Flex flexWrap="wrap"    justifyContent="center" alignItems="center"  w={{base:'0', md:'50em', lg:'61em',xl:'82em', '2xl':'85em',}}  h="27em" gap={{base:'4.4rem', md:'0 ', lg:'0',xl:'0', '2xl':'0',}} 
 >
                 <Box marginRight={{base:'0', md:'2.5em', lg:'2.5em',xl:'2.5em', '2xl':'2.5em',}}
- transition="500ms" marginBottom={{base:'0', md:'3em', lg:'0',xl:'0', '2xl':'0',}} _hover={{  transform: "scale(1.12)" }}> 
+ transition="500ms" marginBottom={{base:'0', md:'3em', lg:'3.5em',xl:'0', '2xl':'0',}} _hover={{  transform: "scale(1.12)" }}> 
         <Laptop/>
         </Box>
         <Box marginRight={{base:'0', md:'2.5em', lg:'2.5em',xl:'2.5em', '2xl':'2.5em',}}
- transition="500ms" marginBottom={{base:'0', md:'3em', lg:'0',xl:'0', '2xl':'0',}}  _hover={{  transform: "scale(1.12)" }}> 
+ transition="500ms" marginBottom={{base:'0', md:'3em', lg:'3.5em ',xl:'0', '2xl':'0',}}  _hover={{  transform: "scale(1.12)" }}> 
         <Celular/>
         </Box>
 
@@ -33,8 +34,8 @@ const Hojacuatro = () => {
  transition="500ms"  _hover={{  transform: "scale(1.12)" }}>
         <Megafono/>
         </Box>
-        
         </Flex>
+        </Center>
         </Box>
 
 

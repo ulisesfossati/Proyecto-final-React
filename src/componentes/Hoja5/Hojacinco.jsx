@@ -14,7 +14,8 @@ const Hojacinco = () => {
                             <Center justifyContent={{base:'center', md:'center', lg:'start',xl:'start', '2xl':'start',}}>
                 <Text color="white" fontWeight="bold" fontSize="2xl" marginBottom="0.5em">Habilidades</Text>
                 </Center>
-                <Text color="white"  w={{base:'19em', md:'30em', lg:'25em',xl:'25em', '2xl':'25em',}} marginBottom={{base:'0', md:'1em', lg:'0',xl:'0', '2xl':'0',}} fontSize="1rem" textAlign="justify">Estas son algunas de las habilidades que fui aprendiendo y mejorando con el tiempo y la práctica, pero a la vez informandome, investigando y tratando de actualizarme con contenidos que todavia no uso habitualmente.</Text>
+                <Text color="white"  w={{base:'19em', md:'30em', lg:'25em',xl:'25em', '2xl':'25em',}} marginBottom={{base:'0', md:'1em', lg:'0',xl:'0', '2xl':'0',}} fontSize="1rem" textAlign="justify" marginRight={{base:'0', md:'0', lg:'4em',xl:'0', '2xl':'0',}}
+>Estas son algunas de las habilidades que fui aprendiendo y mejorando con el tiempo y la práctica, pero a la vez informandome, investigando y tratando de actualizarme con contenidos que todavia no uso habitualmente.</Text>
 </Flex>
 <Habi/>
 </Flex>

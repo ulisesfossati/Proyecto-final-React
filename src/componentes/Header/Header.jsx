@@ -3,6 +3,7 @@ import React from 'react';
 import { Navbar } from '../Navbar/Navbar.jsx';
 import { Logo } from '../Logo/Logo.jsx'
 import { Hamburguesa } from '../Menuhamb/Hamburguesa.jsx';
+import noche from '/noche.png'
 
 
 
@@ -15,6 +16,7 @@ const Header = () => {
             <Flex align="center" > 
             <Logo/>
            <Navbar/>
+           <Box visibility={{base:'hidden', md:'hidden', lg:'hidden',xl:'hidden', '2xl':'visible',}}  cursor="pointer" position="absolute" top="6" right="20" w="3em" ><img src={noche} alt="" /></Box>
            <Hamburguesa/>
            </Flex>
         </Box>
