@@ -24,13 +24,13 @@ const Formulario = () => {
         <>
         <Box>
  <form ref={form} onSubmit={sendEmail}>
-    <Flex marginTop="2em">
+    <Flex marginTop="2em" display={{base:'block', md:'flex', lg:'flex',xl:'flex', '2xl':'flex',}} >
     <Box marginRight="4em">
-<Text color="white" fontWeight="bold" marginLeft="0.3em"> Nombre y Apellido</Text>
+<Text color="white" fontWeight="bold"   marginLeft="0.3em"> Nombre y Apellido</Text>
 <Input type='text' placeholder=  ' Nombre y Apellido'   color="white" w="15em"  borderColor="#454549" bg="#121214" size="md" required name="user_name"/>
 </Box>
 <Box>
-<Text color="white" fontWeight="bold" marginLeft="0.3em"> Email</Text>
+<Text color="white" fontWeight="bold" marginLeft="0.3em" marginTop={{base:'2em', md:'0', lg:'0',xl:'0', '2xl':'0',}}> Email</Text>
 <Input type='Email' placeholder=  ' Email'   color="white" w="15em"  borderColor="#454549" bg="#121214" size="md" required name="user_email"/>
 </Box>
 </Flex>

@@ -8,7 +8,7 @@ const Navbar = () => {
        <>
        <Box  color="white"  w="55em" display={{base:'none', md:'block', lg:'block',xl:'block', '2xl':'block',}}  >
         <nav >
-            <Flex justifyContent="right">
+            <Flex justifyContent="right" whiteSpace="nowrap">
          <a className='violeta' href="#sobremi">Sobre mi</a>
         <a className='violeta' href="#proyectos">Proyectos</a>
         <a className='violeta' href="#Servicio">Servicio</a>

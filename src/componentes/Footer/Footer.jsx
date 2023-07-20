@@ -20,7 +20,7 @@ const Footer = () => {
 <Box marginLeft="2em">
 <a href="https://www.instagram.com/ulisesfossati/?hl=es-la" target='_blank'><img src={ig} alt="" /></a>
 </Box>
-<Box position="absolute" right="10em" top=""> <a href="#primera"><img src={arri} alt="" /></a></Box>
+<Box visibility={{base:'hidden', md:'visible', lg:'visible',xl:'visible', '2xl':'visible',}} position="absolute" right="10em" top=""> <a href="#primera"><img src={arri} alt="" /></a></Box>
      </Center>
      
      </Box>
