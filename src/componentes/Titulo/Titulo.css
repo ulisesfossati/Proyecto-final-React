@@ -1,10 +1,11 @@
 .wspp{
    
     display: flex;
-    align-items: center;
+    margin-right: 201em;
     width: 18em;
     margin-top: 1em;
-    margin-left: -6.5em;
+    background-color: blue;
+    
     
     
 }
@@ -21,6 +22,7 @@
 
 .prueba{
     display: flex;
+    margin: 0;
     align-items: center;
     padding-left: 2.5em;
     padding-right: 1.3em;

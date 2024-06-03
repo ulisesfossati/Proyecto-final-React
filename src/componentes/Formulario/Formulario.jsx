@@ -24,7 +24,7 @@ const Formulario = () => {
         <>
         <Box>
  <form ref={form} onSubmit={sendEmail}>
-    <Flex marginTop="2em" display={{base:'block', md:'flex', lg:'flex',xl:'flex', '2xl':'flex',}} >
+    <Flex marginTop="2em" display={{base:'block', md:'flex', lg:'flex',xl:'flex', '2xl':'flex',}}  >
     <Box marginRight="4em">
 <Text color="white" fontWeight="bold"   marginLeft="0.3em"> Nombre y Apellido</Text>
 <Input type='text' placeholder=  ' Nombre y Apellido'   color="white" w="15em"  borderColor="#454549" bg="#121214" size="md" required name="user_name"/>
