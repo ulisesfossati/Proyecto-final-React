@@ -8,7 +8,7 @@ import { Megafono } from '../Megafono/Megafono';
 const Hojacuatro = () => {
     return(
         <>
-        <Box as='section' bg="#202024" height={{base:'100%', md:'100%', lg:'100%',xl:'100%', '2xl':'100%',}} id='Servicio'  paddingBottom={{base:'140vh', md:'20em', lg:'20em',xl:'5em', '2xl':'5em',}}>
+        <Box as='section' bg="#202024" height={{base:'120%', md:'100%', lg:'100%',xl:'100%', '2xl':'100%',}} id='Servicio'  paddingBottom={{base:'300%', md:'20em', lg:'20em',xl:'5em', '2xl':'5em',}}>
             
         <Center color="white" fontSize="3xl" fontWeight="bold" paddingTop={{base:'2.5em', md:'4em', lg:'4em',xl:'4em', '2xl':'3em',}} marginBottom={{base:'2em', md:'2em', lg:'2em',xl:'0', '2xl':'0',}}
 

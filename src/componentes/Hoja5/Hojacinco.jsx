@@ -5,7 +5,7 @@ import { Habi } from '../Prubadehabi/Habi';
 const Hojacinco = () => {
     return(
         <>
-        <Box height={{base:'115vh', md:'62vh', lg:'62vh',xl:'62vh', '2xl':'62vh',}} bg="#121214" as="section" id='Habilidades' >
+        <Box height={{base:'115vh', md:'62vh', lg:'62vh',xl:'62vh', '2xl':'62vh',}}  paddingBottom={{base:'225%', md:'0', lg:'0',xl:'0', '2xl':'0',}}bg="#121214" as="section" id='Habilidades' >
             <Box>
                 <Box  w="80%" margin="0 auto">
                     <Flex justifyContent={{base:'center', md:'center', lg:'space-around',xl:'space-around', '2xl':'space-around',}}
@@ -19,8 +19,6 @@ const Hojacinco = () => {
 </Flex>
 <Habi/>
 </Flex>
-
-
 
 
 
