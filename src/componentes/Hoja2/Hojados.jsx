@@ -30,13 +30,13 @@ const Hojados = () => {
       <Box  display="flex" justifyContent="center" alignItems="center" w="88%">
         <Text  color="white" width={{base:'19.5em', md:'32em', lg:'30em',xl:'35.5em', '2xl':'35em',}}  textAlign="justify" fontWeight="bold" >Estoy haciendo la Diplomatura en Programación web en la Universidad Tecnológica Nacional. Le dedico varias horas diarias para poder ir mejorando mis técnicas y habilidades. Estoy muy entusiasmado, ya que es algo que me gusta y le pongo mucha dedicación para poder ir progresando.</Text>
         </Box>
-        <Flex  flexDirection={{base:'column', md:'row', lg:'row',xl:'row', '2xl':'row',}} justifyContent="center" alignItems="center"  w="100%"   >
+        <Flex  flexDirection={{base:'column', md:'row', lg:'row',xl:'row', '2xl':'row',}} justifyContent="center" alignItems="center"  w="92%"  gap={{base:'0', md:'0', lg:'0',xl:'0', '2xl':'9em',}}  >
           
-          <Box marginRight={{base:'0', md:'', lg:'0',xl:'0', '2xl':'0',}} marginLeft={{base:'0', md:'5em', lg:'0',xl:'0', '2xl':'0',}} w="50%"  display="flex" alignItems="center" justifyContent="center"  >
+          <Box marginRight={{base:'0', md:'', lg:'0',xl:'0', '2xl':'0',}} marginLeft={{base:'0', md:'5em', lg:'0',xl:'0', '2xl':'0',}}  display="flex" alignItems="center" justifyContent="center"  >
         <Btnwspp />
         </Box>
        
-<Box marginRight={{base:'0', md:'', lg:'0',xl:'0', '2xl':'0',}} marginLeft={{base:'0', md:'1em', lg:'0',xl:'0', '2xl':'0',}} w="50%"  display="flex" alignItems="center" justifyContent={{base:'center', md:'start', lg:'start',xl:'start', '2xl':'start',}} >
+<Box marginRight={{base:'0', md:'', lg:'0',xl:'0', '2xl':'0',}} marginLeft={{base:'0', md:'1em', lg:'0',xl:'0', '2xl':'0',}}   display="flex" alignItems="center" justifyContent={{base:'center', md:'start', lg:'start',xl:'start', '2xl':'start',}} >
         <Btnnube/>
 </Box>
         </Flex> 
