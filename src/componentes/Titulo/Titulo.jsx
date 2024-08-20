@@ -1,6 +1,6 @@
 import { Box, Flex, Text } from '@chakra-ui/react';
 import React from 'react';
-import whatsapplogo from '/icons-whatsapp.svg'
+import whatsapplogo from '/icons8-whatsapp-35.svg'
 import './Titulo.css'
 
 const Titulo = () => {
@@ -18,7 +18,7 @@ const Titulo = () => {
         </Box>
       <Box marginRight={{base:'0', md:'0', lg:'0',xl:'13.5em', '2xl':'0',}} >
       {/* <div className='wspp'> */}
-      <Box marginTop="1em" display="flex"   w={{base:'82%', md:'32%', lg:'100%',xl:'100%', '2xl':'100%',}} justifyContent={{base:'center', md:'end', lg:'left', xl:'left', '2xl':'left'}}>
+      <Box marginTop="1em" display="flex"    w={{base:'82%', md:'32%', lg:'100%',xl:'100%', '2xl':'100%',}} justifyContent={{base:'center', md:'end', lg:'left', xl:'left', '2xl':'left'}}>
         <a className='prueba' target='_blank' href="https://wa.me/542915269707?text=Hola%2C+como+estas%3F">
       <img className='imgwsp' src={whatsapplogo} alt="" />
           <p className='linkwspp'>WhatsApp</p>

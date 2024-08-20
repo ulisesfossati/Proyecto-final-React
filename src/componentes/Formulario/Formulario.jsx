@@ -43,7 +43,7 @@ const Formulario = () => {
 <Textarea placeholder="Mensaje" color="white"  bg="#121214" resize="none" borderColor="#454549" marginTop="2em"  name="message"></Textarea>
 <Center>
 
-<Input type="submit" value="Enviar"  color="white" w="11.7em" marginTop="2em" bg="#5429CF" border="0" borderRadius="15px" padding="1em 1em" fontSize="1rem" textAlign="center" paddingBottom="2.3em"  />
+<Input type="submit" value="Enviar" cursor="pointer"  color="white" w="11.7em" marginTop="2em" bg="#5429CF" border="0" borderRadius="15px" padding="1em 1em" fontSize="1rem" textAlign="center" paddingBottom="2.3em"  />
 </Center>
 
  </form>

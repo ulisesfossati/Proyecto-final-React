@@ -11,13 +11,13 @@
 }
 
 .linkwspp{
-    width: 8em;
-    font-size: 0.9rem;
-   
+    width: 5em;
+    font-size: 1.3rem;
     display: flex;
     height: 2em;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    
 }
 
 .prueba{
@@ -25,8 +25,8 @@
     margin: 0;
     align-items: center;
     padding-left: 2.5em;
-    padding-right: 1.3em;
-    padding-top: 0.7em;
+    padding-right: 2.5em;
+    padding-top: 0.5em;
     justify-content: center;
     border-radius: 5px;
     text-decoration: none;
@@ -37,9 +37,10 @@
 }
 
 .imgwspp{
-    width: 1.3em;
+    width: 0.9em;
     margin-right: -0.7em;
     margin-bottom: 0.3em;
+    
 }
 
 
