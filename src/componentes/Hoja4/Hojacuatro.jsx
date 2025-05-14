@@ -1,4 +1,4 @@
-import { Box, Center, Flex } from '@chakra-ui/react';
+import { Box, Center, Flex, Heading } from '@chakra-ui/react';
 import React from 'react';
 import { Laptop } from '../Laptop/Laptop';
 import { Celular } from '../celular/celular';
@@ -6,48 +6,48 @@ import { Regla } from '../Regla/Regla';
 import { Megafono } from '../Megafono/Megafono';
 
 const Hojacuatro = () => {
-    return(
-        <>
-        <Box as='section' bg="#202024" height={{base:'120%', md:'100%', lg:'100%',xl:'100%', '2xl':'100%',}} id='Servicio'  paddingBottom={{base:'300%', md:'20em', lg:'20em',xl:'5em', '2xl':'5em',}}>
-            
-        <Center color="white" fontSize="3xl" fontWeight="bold" paddingTop={{base:'2.5em', md:'4em', lg:'4em',xl:'4em', '2xl':'3em',}} marginBottom={{base:'2em', md:'2em', lg:'2em',xl:'0', '2xl':'0',}}
+  return (
+    <Box
+      as="section"
+      bg="#202024"
+      id="Servicio"
+      py={{ base: '4em', md: '6em', lg: '7em' }}
+    >
+      {/* Título */}
+      <Heading
+        color="white"
+        fontWeight="bold"
+        textAlign="center"
+        mb="2.5em"
+        fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+      >
+        Servicio
+      </Heading>
 
->Servicio</Center>
-        <Box  > 
-              <Center>
-            <Flex flexWrap="wrap"    justifyContent="center" alignItems="center"  w={{base:'0', md:'50em', lg:'61em',xl:'82em', '2xl':'85em',}}  h="27em" gap={{base:'4.4rem', md:'0 ', lg:'0',xl:'0', '2xl':'0',}} 
->
-                <Box marginRight={{base:'0', md:'2.5em', lg:'2.5em',xl:'2.5em', '2xl':'2.5em',}}
- transition="500ms" marginBottom={{base:'0', md:'3em', lg:'3.5em',xl:'0', '2xl':'0',}} _hover={{  transform: "scale(1.12)" }}> 
-        <Laptop/>
-        </Box>
-        <Box marginRight={{base:'0', md:'2.5em', lg:'2.5em',xl:'2.5em', '2xl':'2.5em',}}
- transition="500ms" marginBottom={{base:'0', md:'3em', lg:'3.5em ',xl:'0', '2xl':'0',}}  _hover={{  transform: "scale(1.12)" }}> 
-        <Celular/>
-        </Box>
-
-        <Box marginRight={{base:'0', md:'2.5em', lg:'2.5em',xl:'2.5em', '2xl':'2.5em',}}
- transition="500ms"  _hover={{  transform: "scale(1.12)" }}> 
-        <Regla/>
-        </Box>
-        <Box marginRight={{base:'0', md:'2.5em', lg:'2.5em',xl:'2.5em', '2xl':'2.5em',}}
- transition="500ms"  _hover={{  transform: "scale(1.12)" }}>
-        <Megafono/>
-        </Box>
+      <Center>
+        <Flex
+          flexWrap={{ base: 'wrap', lg: 'nowrap' }} // ✅ 1 sola fila en lg
+          justifyContent="center"
+          alignItems="center"
+          w="100%"
+          maxW="85em"
+          px={{ base: '1em', md: '2em' }}
+          gap={{ base: '2em', md: '3em', lg: '4em' }}
+        >
+          {[<Laptop />, <Celular />, <Regla />, <Megafono />].map((Comp, idx) => (
+            <Box
+              key={idx}
+              transition="transform 0.3s ease"
+              _hover={{ transform: 'scale(1.12)' }}
+              mb={{ base: '2em', md: '3em', lg: '0' }} // ✅ sin espacio vertical en lg
+            >
+              {Comp}
+            </Box>
+          ))}
         </Flex>
-        </Center>
-        </Box>
+      </Center>
+    </Box>
+  );
+};
 
-
-
-
-
-
-        </Box>
-       
-        
-        </>
-    )
-}
-
-export { Hojacuatro }
+export { Hojacuatro };
