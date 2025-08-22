@@ -2,13 +2,20 @@ import { Box, Text, SimpleGrid, Image, Heading, Link, Button, Center } from '@ch
 import React from 'react';
 import bahiapadel from '/BahiaPadel.png';
 import comidas from '/foodie.png';
+import intelecta from '/Intelecta.png';
 
 const proyectos = [
   {
     titulo: 'Bahia Padel',
-    descripcion: '(React-Express-Node.js-Mongo DB)',
+    descripcion: '(React Vite-Node.js-Firebase-Chakra UI)',
     imagen: bahiapadel,
     link: 'https://ulisesfossati.github.io/Bahia-Padel/'
+  },
+  {
+    titulo: 'Intelecta Abogadas',
+    descripcion: '(React Vite-Chakra UI)',
+    imagen: intelecta,
+    link: 'https://ulisesfossati.github.io/Intelecta-Abogadas/'
   },
   {
     titulo: 'E-commerce',
@@ -31,61 +38,72 @@ const Proyectos = () => {
       </Heading>
 
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing="2em">
-        {proyectos.map((proyecto, idx) => (
-          <Link
-            key={idx}
-            href={proyecto.link}
-            isExternal
-            _hover={{ textDecor: 'none' }}
-          >
-            <Box
-              position="relative"
-              borderRadius="0.7em"
-              overflow="hidden"
-              boxShadow="lg"
-              role="group"
-              cursor="pointer"
-              transition="transform 0.4s ease"
-              _hover={{ transform: 'scale(1.02)' }}
+        {proyectos.map((proyecto, idx) => {
+          const card = (
+            <Link
+              key={idx}
+              href={proyecto.link}
+              isExternal
+              _hover={{ textDecor: 'none' }}
             >
-              <Image
-                src={proyecto.imagen}
-                alt={proyecto.titulo}
-                objectFit="cover"
-                objectPosition="top"
-                w="100%"
-                h={{ base: "13em", md: "15em", lg: "17em" }}
-              />
-
               <Box
-                position="absolute"
-                top="0"
-                left="0"
-                w="100%"
-                h="100%"
-                bg="rgba(0, 0, 0, 0.5)"
-                zIndex="1"
-                display="flex"
-                flexDirection="column"
-                alignItems="center"
-                justifyContent="center"
-                color="white"
-                px="1em"
-                transition="transform 0.8s ease"
-                _groupHover={{
-                  transform: 'translateX(100%)'
-                }}
+                position="relative"
+                borderRadius="0.7em"
+                overflow="hidden"
+                boxShadow="lg"
+                role="group"
+                cursor="pointer"
+                transition="transform 0.4s ease"
+                _hover={{ transform: 'scale(1.02)' }}
+                maxW={{ base: "28em", md: "100%" }} 
               >
-                <Text fontWeight="bold" fontSize="xl" mb="0.3em">
-                  {proyecto.titulo}
-                </Text>
-                <Text fontWeight="medium" fontSize="md">
-                  {proyecto.descripcion}
-                </Text>
+                <Image
+                  src={proyecto.imagen}
+                  alt={proyecto.titulo}
+                  objectFit="cover"
+                  objectPosition="top"
+                  w="100%"
+                  h={{ base: "13em", md: "15em", lg: "17em" }}
+                />
+
+                <Box
+                  position="absolute"
+                  top="0"
+                  left="0"
+                  w="100%"
+                  h="100%"
+                  bg="rgba(0, 0, 0, 0.5)"
+                  zIndex="1"
+                  display="flex"
+                  flexDirection="column"
+                  alignItems="center"
+                  justifyContent="center"
+                  color="white"
+                  px="1em"
+                  transition="transform 0.8s ease"
+                  _groupHover={{
+                    transform: 'translateX(100%)'
+                  }}
+                >
+                  <Text fontWeight="bold" fontSize="xl" mb="0.3em">
+                    {proyecto.titulo}
+                  </Text>
+                  <Text fontWeight="medium" fontSize="md">
+                    {proyecto.descripcion}
+                  </Text>
+                </Box>
               </Box>
-            </Box>
-          </Link>
-        ))}
+            </Link>
+          );
+
+          return idx === proyectos.length - 1 ? (
+            <Center gridColumn={{ base: "auto", md: "1 / span 2" }} key={idx}>
+              {card}
+            </Center>
+          ) : (
+            card
+          );
+        })}
       </SimpleGrid>
 
       {/* Botón debajo */}
